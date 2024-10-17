@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://login.luxid.lu/saml/sps/saml20idp-LUXID/saml20">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>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</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.luxid.lu/saml/sps/saml20idp-LUXID/saml20/login"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.luxid.lu/saml/sps/saml20idp-LUXID/saml20/login"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">LuxID</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">LuxID</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en"/>
+    </md:Organization>
+</md:EntityDescriptor>
